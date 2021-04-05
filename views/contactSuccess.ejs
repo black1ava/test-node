@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>
+      Contact-success
+    </title>
+    <style>
+      @import url(/assets/index.css);
+    </style>
+  </head>
+  <body>
+    <h1>Contact Successfully</h1>
+    <p>
+      You have contacted <%= req.name %> in <%= req.dept %> department successfully
+    </p>
+    <%- include('nav/index') %>
+  </body>
+</html>
